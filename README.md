@@ -11,7 +11,7 @@ App with Frontend in one container and Backend in another conteiner, that commun
 
 ### Backend
 - node express
-- Port: 3001
+- Port: 3000
 - When *localhost:3000* (Backend) called, redirects to *localhost:8080* (Frontend)
   
 ### Docker

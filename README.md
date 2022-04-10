@@ -70,9 +70,9 @@ app.get("/", (req, res) => {
   res.status(301).redirect("http://127.0.0.1:8080/")
 })
 
-// When receive a request from http://127.0.0.1:3000/ redirects to http://127.0.0.1:8080/hello-docker
-app.get("/hello-docker", (req, res) => {
-  res.status(301).redirect("http://127.0.0.1:8080/hello-docker.html")
+// When receive a request from http://127.0.0.1:3000/ redirects to http://127.0.0.1:8080/index2
+app.get("/backend", (req, res) => {
+  res.status(301).redirect("http://127.0.0.1:8080/index2.html")
 })
 
 app.listen(port, () => {

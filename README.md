@@ -7,7 +7,7 @@ App with Frontend in one container and Backend in another conteiner, that commun
 ### Frontend
 - node http-server
 - Port: 8080
-- Created a button that goes to *localhost:3001* (Backend)
+- Created a button that goes to *localhost:3000* (Backend)
 
 ### Backend
 - node express

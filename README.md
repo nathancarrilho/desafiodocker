@@ -1,8 +1,5 @@
 # docker-compose.yml
-Frontend integration with the backend through docker-compose 
-
-# Fullstack Docker
-App with Frontend in one container and Backend in another conteiner, that communicate with each other.
+Frontend integration with the backend through docker-compose.
 
 ### Frontend
 - node http-server
